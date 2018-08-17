@@ -2,7 +2,7 @@
     font-size: 15px;
 }
 .menu-opcoes a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
 }
 .menu-opcoes a:hover {
@@ -10,4 +10,8 @@
 }
 .menu-opcoes ul li {
     display: inline;
+}
+
+.container {
+    background-color: #005fa4;
 }
