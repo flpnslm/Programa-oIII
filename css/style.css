@@ -1,3 +1,9 @@
+.menu-opcoes {
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .menu-opcoes ul {
     font-size: 15px;
 }
