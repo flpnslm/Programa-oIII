@@ -18,12 +18,21 @@ body {
     flex-flow: row wrap;
 }
 .container-top {
-    background-color: #005ca1;
+    background-color: #005FA4;
 }
 
 .center {
     flex-direction: column;
     flex: 30%;
+}
+.center-right {
+    flex-direction: column;
+    flex: 10%;
+}
+
+.center-left {
+    flex-direction: column;
+    flex: 20%;
 }
 .left {
     flex-direction: column;
@@ -76,6 +85,7 @@ body {
     justify-content: center;
     background-color: #00549A;
     font: bold 13px Arial, Helvetica, sans-serif;
+    border-bottom: solid #FFCC00;
 }
 .container-servico {
     display: flex;
@@ -116,7 +126,30 @@ body {
     line-height: 140%;
 }
 
+.search {
+    padding: 5px;
+    margin: 0;
+}
+
+.search-button {
+    margin: 0;
+    background: #fee800;
+    color: #00549A;
+    padding: 5px;
+}
 #adm {
     color: #00549a;
     font: 15pt Verdana, Geneva, sans-serif;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 13px Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
 }
