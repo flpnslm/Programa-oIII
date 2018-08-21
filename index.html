@@ -23,8 +23,10 @@
                 <div class="right-search">
                     <form>
                         <label>Busca</label>
-                        <input type="search" class="search">
-                        <button class="search-button">>></button>
+                        <input type="search" id="busca" class="search">
+                        <button class="search-button" onclick="buscar(
+                           document.getElementById('busca'))"
+                        >>></button>
                     </form>
                 </div>
             </div>
@@ -113,7 +115,7 @@
             <div class="right">
                 <ul>
                     <li>
-                        <a href="#">Apresentação</a>
+                        <a href="#" id="apresentacao" onclick="changeSelection('apresentacao')">Apresentação</a>
                     </li>
                     <li>
                         <a href="#">Infraestrutura</a>
@@ -158,6 +160,7 @@
             </nav>
         </div>
     </div>
+    <script src="funcoes.js"></script>
 </body>
 
 </html>
