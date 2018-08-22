@@ -7,7 +7,15 @@ function buscar(button) {
     }
 }
 
-function changeSelection(valor) {
-    document.getElementById(valor).style.backgroundColor = "#78788a1f";
-    document.getElementById(valor).style.fontWeight = "bold";
+function changeSelection(buttonClicked, otherButtons) {
+
+    const elements = document.getElementsByClassName(otherButtons)
+    
+    for (let i = 0; i < elements.length; i++) {
+        elements[i].style.backgroundColor = "white"
+        elements[i].style.fontWeight = "normal"
+    }
+        
+    document.getElementById(buttonClicked).style.backgroundColor = "#78788a1f";
+    document.getElementById(buttonClicked).style.fontWeight = "bold";
 }

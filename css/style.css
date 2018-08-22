@@ -137,6 +137,11 @@ body {
     color: #00549A;
     padding: 5px;
 }
+
+.menu-info {
+    background-color: white;
+}
+
 #adm {
     color: #00549a;
     font: 15pt Verdana, Geneva, sans-serif;
